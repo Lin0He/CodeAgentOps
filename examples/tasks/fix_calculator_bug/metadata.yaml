@@ -1,0 +1,5 @@
+name: fix_calculator_bug
+entrypoint: calculator.py
+forbidden_paths:
+  - public_tests
+  - hidden_tests

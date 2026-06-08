@@ -1,0 +1,5 @@
+name: fix_lru_cache
+entrypoint: lru_cache.py
+forbidden_paths:
+  - public_tests
+  - hidden_tests

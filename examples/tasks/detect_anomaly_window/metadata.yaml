@@ -1,0 +1,12 @@
+id: detect_anomaly_window
+name: Detect Anomaly Window
+difficulty: medium
+task_type: feature_implementation
+skills:
+  - monitoring
+  - rolling_window
+  - edge_case_handling
+  - regression_preservation
+forbidden_paths:
+  - public_tests/
+  - hidden_tests/

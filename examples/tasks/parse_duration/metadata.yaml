@@ -1,0 +1,11 @@
+id: parse_duration
+name: Parse Duration
+difficulty: medium
+task_type: feature_implementation
+skills:
+  - string_parsing
+  - edge_case_handling
+  - input_validation
+forbidden_paths:
+  - public_tests/
+  - hidden_tests/

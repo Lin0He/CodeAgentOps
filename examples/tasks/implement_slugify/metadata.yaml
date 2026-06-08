@@ -1,0 +1,5 @@
+name: implement_slugify
+entrypoint: text_utils.py
+forbidden_paths:
+  - public_tests
+  - hidden_tests
