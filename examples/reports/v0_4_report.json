@@ -1,0 +1,387 @@
+[
+  {
+    "task_name": "Aggregate Eval Results",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 3.604710999999952,
+    "total_llm_latency_s": 2.945709250001528,
+    "total_pytest_runtime_s": 0.6525654999932158,
+    "tool_overhead_ratio": 0.18281680556317356,
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 386,
+      "total_tokens": 1161,
+      "estimated_cost_usd": 0.00063385
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 41,
+      "lines_deleted": 1,
+      "final_patch_size": 45,
+      "patch_churn": 42,
+      "churn_to_final_ratio": 0.9333333333333333,
+      "modified_files": [
+        "eval_summary.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 2.945709250001528,
+        "prompt_tokens": 775,
+        "completion_tokens": 386,
+        "total_tokens": 1161,
+        "output_tokens_per_s": 131.03805136226524,
+        "estimated_cost_usd": 0.00063385,
+        "patch_apply_time_s": 0.0014669160009361804,
+        "pytest_runtime_s": 0.35157999999501044,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 2909,
+        "modified_files": [
+          "eval_summary.py"
+        ],
+        "lines_added": 41,
+        "lines_deleted": 1
+      }
+    ],
+    "run_dir": "runs/Aggregate Eval Results/20260609-133741"
+  },
+  {
+    "task_name": "Detect Anomaly Window",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 2.391363791000913,
+    "total_llm_latency_s": 1.7793354579989682,
+    "total_pytest_runtime_s": 0.6059456250004587,
+    "tool_overhead_ratio": 0.25593275908295754,
+    "usage": {
+      "prompt_tokens": 454,
+      "completion_tokens": 140,
+      "total_tokens": 594,
+      "estimated_cost_usd": 0.00027658
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 12,
+      "lines_deleted": 0,
+      "final_patch_size": 20,
+      "patch_churn": 12,
+      "churn_to_final_ratio": 0.6,
+      "modified_files": [
+        "monitoring.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 1.7793354579989682,
+        "prompt_tokens": 454,
+        "completion_tokens": 140,
+        "total_tokens": 594,
+        "output_tokens_per_s": 78.68106003880983,
+        "estimated_cost_usd": 0.00027658,
+        "patch_apply_time_s": 0.0013620409954455681,
+        "pytest_runtime_s": 0.3095372090028832,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 1769,
+        "modified_files": [
+          "monitoring.py"
+        ],
+        "lines_added": 12,
+        "lines_deleted": 0
+      }
+    ],
+    "run_dir": "runs/Detect Anomaly Window/20260609-133745"
+  },
+  {
+    "task_name": "fix_calculator_bug",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 2.449866499999189,
+    "total_llm_latency_s": 1.840998874999059,
+    "total_pytest_runtime_s": 0.6027690829942003,
+    "tool_overhead_ratio": 0.24853094035953857,
+    "usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 202,
+      "total_tokens": 649,
+      "estimated_cost_usd": 0.00034289000000000005
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 14,
+      "lines_deleted": 4,
+      "final_patch_size": 30,
+      "patch_churn": 18,
+      "churn_to_final_ratio": 0.6,
+      "modified_files": [
+        "calculator.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 1.840998874999059,
+        "prompt_tokens": 447,
+        "completion_tokens": 202,
+        "total_tokens": 649,
+        "output_tokens_per_s": 109.72304369284487,
+        "estimated_cost_usd": 0.00034289000000000005,
+        "patch_apply_time_s": 0.001397540996549651,
+        "pytest_runtime_s": 0.30761595799413044,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 1703,
+        "modified_files": [
+          "calculator.py"
+        ],
+        "lines_added": 14,
+        "lines_deleted": 4
+      }
+    ],
+    "run_dir": "runs/fix_calculator_bug/20260609-133747"
+  },
+  {
+    "task_name": "fix_lru_cache",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 2.3510807909988216,
+    "total_llm_latency_s": 1.744738374996814,
+    "total_pytest_runtime_s": 0.6004037489983602,
+    "tool_overhead_ratio": 0.25789943855753766,
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 173,
+      "total_tokens": 694,
+      "estimated_cost_usd": 0.00033097
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 9,
+      "lines_deleted": 1,
+      "final_patch_size": 26,
+      "patch_churn": 10,
+      "churn_to_final_ratio": 0.38461538461538464,
+      "modified_files": [
+        "lru_cache.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 1.744738374996814,
+        "prompt_tokens": 521,
+        "completion_tokens": 173,
+        "total_tokens": 694,
+        "output_tokens_per_s": 99.15526733360004,
+        "estimated_cost_usd": 0.00033097,
+        "patch_apply_time_s": 0.0013623749982798472,
+        "pytest_runtime_s": 0.30365979099588003,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 1990,
+        "modified_files": [
+          "lru_cache.py"
+        ],
+        "lines_added": 9,
+        "lines_deleted": 1
+      }
+    ],
+    "run_dir": "runs/fix_lru_cache/20260609-133749"
+  },
+  {
+    "task_name": "implement_slugify",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 2.874848416999157,
+    "total_llm_latency_s": 2.2583357089970377,
+    "total_pytest_runtime_s": 0.610749040999508,
+    "tool_overhead_ratio": 0.21445050958396325,
+    "usage": {
+      "prompt_tokens": 349,
+      "completion_tokens": 251,
+      "total_tokens": 600,
+      "estimated_cost_usd": 0.00037033
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 31,
+      "lines_deleted": 1,
+      "final_patch_size": 33,
+      "patch_churn": 32,
+      "churn_to_final_ratio": 0.9696969696969697,
+      "modified_files": [
+        "text_utils.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 2.2583357089970377,
+        "prompt_tokens": 349,
+        "completion_tokens": 251,
+        "total_tokens": 600,
+        "output_tokens_per_s": 111.14379452090984,
+        "estimated_cost_usd": 0.00037033,
+        "patch_apply_time_s": 0.0009784170033526607,
+        "pytest_runtime_s": 0.30511133300024085,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 1445,
+        "modified_files": [
+          "text_utils.py"
+        ],
+        "lines_added": 31,
+        "lines_deleted": 1
+      }
+    ],
+    "run_dir": "runs/implement_slugify/20260609-133752"
+  },
+  {
+    "task_name": "Parse Duration",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 3.053937666998536,
+    "total_llm_latency_s": 2.452857958000095,
+    "total_pytest_runtime_s": 0.5952203339984408,
+    "tool_overhead_ratio": 0.1968212106926179,
+    "usage": {
+      "prompt_tokens": 393,
+      "completion_tokens": 257,
+      "total_tokens": 650,
+      "estimated_cost_usd": 0.00038881000000000007
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 25,
+      "lines_deleted": 1,
+      "final_patch_size": 39,
+      "patch_churn": 26,
+      "churn_to_final_ratio": 0.6666666666666666,
+      "modified_files": [
+        "duration.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 2.452857958000095,
+        "prompt_tokens": 393,
+        "completion_tokens": 257,
+        "total_tokens": 650,
+        "output_tokens_per_s": 104.77573687533929,
+        "estimated_cost_usd": 0.00038881000000000007,
+        "patch_apply_time_s": 0.0014460000020335428,
+        "pytest_runtime_s": 0.29991162499936763,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 1453,
+        "modified_files": [
+          "duration.py"
+        ],
+        "lines_added": 25,
+        "lines_deleted": 1
+      }
+    ],
+    "run_dir": "runs/Parse Duration/20260609-133755"
+  },
+  {
+    "task_name": "Retry Policy",
+    "success": true,
+    "public_passed": true,
+    "hidden_passed": true,
+    "first_attempt_success": true,
+    "iterations_to_success": 1,
+    "api_calls": 1,
+    "retry_amplification": 1.0,
+    "end_to_end_latency_s": 2.760941458000161,
+    "total_llm_latency_s": 2.1555137079994893,
+    "total_pytest_runtime_s": 0.5999573760054773,
+    "tool_overhead_ratio": 0.21928308122809773,
+    "usage": {
+      "prompt_tokens": 644,
+      "completion_tokens": 210,
+      "total_tokens": 854,
+      "estimated_cost_usd": 0.00040488000000000004
+    },
+    "patch_stats": {
+      "files_changed": 1,
+      "lines_added": 12,
+      "lines_deleted": 2,
+      "final_patch_size": 22,
+      "patch_churn": 14,
+      "churn_to_final_ratio": 0.6363636363636364,
+      "modified_files": [
+        "retry_policy.py"
+      ],
+      "forbidden_file_edits": []
+    },
+    "failure_modes": [],
+    "iterations": [
+      {
+        "iteration": 1,
+        "llm_latency_s": 2.1555137079994893,
+        "prompt_tokens": 644,
+        "completion_tokens": 210,
+        "total_tokens": 854,
+        "output_tokens_per_s": 97.42457179495226,
+        "estimated_cost_usd": 0.00040488000000000004,
+        "patch_apply_time_s": 0.0009890829969663173,
+        "pytest_runtime_s": 0.3100855840020813,
+        "public_tests_passed": true,
+        "failure_mode": null,
+        "context_chars": 2230,
+        "modified_files": [
+          "retry_policy.py"
+        ],
+        "lines_added": 12,
+        "lines_deleted": 2
+      }
+    ],
+    "run_dir": "runs/Retry Policy/20260609-133758"
+  }
+]

@@ -1,0 +1,12 @@
+id: aggregate_eval_results
+name: Aggregate Eval Results
+difficulty: medium
+task_type: feature_implementation
+skills:
+  - metrics_aggregation
+  - evaluation
+  - edge_case_handling
+  - missing_data_handling
+forbidden_paths:
+  - public_tests/
+  - hidden_tests/

@@ -1,0 +1,12 @@
+id: retry_policy
+name: Retry Policy
+difficulty: medium
+task_type: feature_implementation
+skills:
+  - reliability_engineering
+  - retry_logic
+  - rate_limit_handling
+  - edge_case_handling
+forbidden_paths:
+  - public_tests/
+  - hidden_tests/
